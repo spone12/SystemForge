@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Window
+    x:Class="SystemForge.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="using:Microsoft.UI.Xaml.Controls">
+
+    <Grid>
+        <controls:NavigationView
+            x:Name="NavView"
+            IsSettingsVisible="False"
+            SelectionChanged="NavView_SelectionChanged">
+
+            <controls:NavigationView.MenuItems>
+                <controls:NavigationViewItem Content="Files" Tag="files"/>
+                <controls:NavigationViewItem Content="System" Tag="system"/>
+                <controls:NavigationViewItem Content="Lua" Tag="lua"/>
+            </controls:NavigationView.MenuItems>
+
+            <Frame x:Name="ContentFrame"/>
+        </controls:NavigationView>
+    </Grid>
+</Window>

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SystemForge (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "SystemForge (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

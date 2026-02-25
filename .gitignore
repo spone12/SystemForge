@@ -1,0 +1,77 @@
+# =========================
+# .NET / Visual Studio / Rider
+# =========================
+
+# Build results
+bin/
+obj/
+out/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio
+.vs/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# OS files
+# =========================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+
+# =========================
+# Logs & temp
+# =========================
+
+*.log
+*.tmp
+*.bak
+*.swp
+
+# =========================
+# NuGet
+# =========================
+
+packages/
+*.nupkg
+*.snupkg
+.nuget/
+
+# =========================
+# Publish output
+# =========================
+
+publish/
+
+# =========================
+# WinUI / MSIX / AppX
+# =========================
+
+AppPackages/
+BundleArtifacts/
+TestResults/
+
+# =========================
+# Certificates
+# =========================
+
+*.pfx
+
+# =========================
+# User-specific
+# =========================
+
+*.cache
+*.local
