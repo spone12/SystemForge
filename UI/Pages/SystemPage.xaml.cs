@@ -1,6 +1,6 @@
 using Microsoft.UI.Xaml.Controls;
 
-namespace WinPilot.UI.Pages;
+namespace SystemForge.UI.Pages;
 
 public sealed partial class SystemPage : Page
 {

@@ -1,7 +1,7 @@
 using System;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
-using WinPilot.UI.Pages;
+using SystemForge.UI.Pages;
 
 namespace SystemForge;
 
